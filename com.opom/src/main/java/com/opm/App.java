@@ -5,7 +5,7 @@ import java.util.ResourceBundle;
 public class App {
 	public int userLogin(String in_user, String in_pwd)
 	{
-		System.out.println("hello");
+		System.out.println("helloo");
 		ResourceBundle rb=ResourceBundle.getBundle("config");
 		String userName=rb.getString("username");
 		String password=rb.getString("password");
